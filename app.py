@@ -151,10 +151,10 @@ def run_agent(keywords):
 # ----------------------------------------------------
 
 st.title("📰 AI News Trend Analysis Dashboard")
-st.markdown("Search for the latest news articles for keywords of interest and receive trend reports.")
+st.markdown("Search for the latest news articles from The Guardian for keywords of interest and receive trend reports.")
 
 # Keyword Input Field
-default_keywords = "Artificial Intelligence, Quantum Computing, Climate Change"
+default_keywords = "Space Industry, Artificial Intelligence, Quantum Computing, Climate Change"
 keyword_input = st.text_input(
     "Enter keywords to analyze, separated by commas (,).",
     value=default_keywords
