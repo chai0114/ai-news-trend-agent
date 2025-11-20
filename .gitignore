@@ -1,0 +1,9 @@
+# .gitignore
+
+# Security: Ignore API key file
+.streamlit/secrets.toml
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+.DS_Store
